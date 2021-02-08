@@ -15,3 +15,7 @@ friends are asking the templates
 [adobe fonts](https://fonts.adobe.com)
 
 [typed js](https://mattboldt.com/demos/typed-js/)
+
+[css-tricks](https://css-tricks.com)
+
+[css layout](https://csslayout.io)
