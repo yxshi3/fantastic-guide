@@ -2,7 +2,7 @@
 
 not happy with my previous bootstrap version (too much extra content not easy to understand the code)
 
-and since i took web dev during IAP i decided to put this into use
+and since i took web dev during IAP i decided to put the skills I learned into use
 
 friends are asking the templates
 
