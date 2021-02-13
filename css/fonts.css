@@ -1,0 +1,41 @@
+h1 {
+  font-family: ocr-a-std, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: ocr-a-std, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: ocr-a-std,monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h4 {
+  font-family: 'AllianceNo1';
+  font-weight: 300;
+  font-style: normal;
+}
+
+h5 {
+  font-family: 'AllianceNo1';
+  font-weight: 400;
+  font-style: normal;
+}
+
+h6 {
+  font-family: ocr-a-std,monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: novel-sans-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}

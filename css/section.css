@@ -1,0 +1,82 @@
+.section-navigation-link,
+.section-navigation-link-web-design,
+.section-navigation-link-daq-app,
+.section-navigation-link-wrist-distractor {
+  text-decoration: none;
+  transition: 0.3s;
+  color: black
+}
+
+.section-navigation-link.active,
+.section-navigation-link-web-design.active,
+.section-navigation-link-daq-app.active,
+.section-navigation-link-wrist-distractor.active {
+  text-decoration: underline;
+  color: black;
+}
+
+.section-navigation-link:hover,
+.section-navigation-link-web-design:hover,
+.section-navigation-link-daq-app:hover,
+.section-navigation-link-wrist-distractor:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.section {
+  margin-top: 1em;
+}
+
+.flex-row {
+  display: flex;
+}
+  
+.section-navigation-list {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0;
+  line-height: 2.1;
+  list-style: none;
+  margin: 2em 0;
+}
+
+.section-navigation-list::after {
+  content: url(/assets/img/right-arrow-stretch-small.svg);
+  display: block;
+  margin: 1em 0 0;
+  width: 3.3em;
+}
+
+.section-navigation-list-item, .section-navigation-list-item-last {
+  display: inline-block;
+  font-size: 80%;
+  font-family: 'AllianceNo1';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.section-content,
+.section-content-web-design,
+.section-content-daq-app,
+.section-content-wrist-distractor {
+  height: auto
+}
+
+.section-navigation-list-item::after {
+  content: '/';
+  display: inline-block;
+  margin-left: 0.1em;
+}
+
+#solution,
+#web-design-demo,
+#web-design-solution,
+#daq-app-solution,
+#wrist-distractor-solution,
+#wrist-distractor-demo {
+  display: none;
+}
+
+.project-title {
+  text-transform: uppercase;
+}
