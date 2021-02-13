@@ -4,7 +4,7 @@
 .section-navigation-link-wrist-distractor {
   text-decoration: none;
   transition: 0.3s;
-  color: black
+  color: black;
 }
 
 .section-navigation-link.active,
@@ -30,7 +30,7 @@
 .flex-row {
   display: flex;
 }
-  
+
 .section-navigation-list {
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -41,16 +41,17 @@
 }
 
 .section-navigation-list::after {
-  content: url(/assets/img/right-arrow-stretch-small.svg);
+  content: url(/img/right-arrow-stretch-small.svg);
   display: block;
   margin: 1em 0 0;
   width: 3.3em;
 }
 
-.section-navigation-list-item, .section-navigation-list-item-last {
+.section-navigation-list-item,
+.section-navigation-list-item-last {
   display: inline-block;
   font-size: 80%;
-  font-family: 'AllianceNo1';
+  font-family: novel-sans-pro, sans-serif;
   font-weight: 500;
   font-style: normal;
 }
@@ -59,11 +60,11 @@
 .section-content-web-design,
 .section-content-daq-app,
 .section-content-wrist-distractor {
-  height: auto
+  height: auto;
 }
 
 .section-navigation-list-item::after {
-  content: '/';
+  content: "/";
   display: inline-block;
   margin-left: 0.1em;
 }
