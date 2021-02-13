@@ -1,8 +1,12 @@
-import Typed from 'typed.js';
+import Typed from "./node_modules/typed.js/lib/typed.min.js";
 
 var options = {
-	strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-	typeSpeed: 40,
+	strings: ["First sentence", "Second sentence"], 
+	typeSpeed: 55, 
+	loop: true, 
+	backDelay: 1650, 
+	backSpeed: 45, 
+	smartBackspace: true,
 };
 
-var typed = new Typed('.element', options);
+var typed = new Typed(".text-slider", options); 
